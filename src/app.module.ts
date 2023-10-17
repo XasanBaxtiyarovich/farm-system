@@ -17,6 +17,8 @@ import { MeatProductionModule } from './meat_production/meat_production.module';
 import { FiberProductionModule } from './fiber_production/fiber_production.module';
 import { MilkProductionModule } from './milk_production/milk_production.module';
 import { RecordOfLinessModule } from './record_of_liness/record_of_liness.module';
+import { FeedingModule } from './feeding/feeding.module';
+import { RecordsOfFeedingModule } from './records_of_feeding/records_of_feeding.module';
 
 @Module({
   imports: [
@@ -38,6 +40,8 @@ import { RecordOfLinessModule } from './record_of_liness/record_of_liness.module
     FiberProductionModule,
     MilkProductionModule,
     RecordOfLinessModule,
+    FeedingModule,
+    RecordsOfFeedingModule,
   ],
   controllers: [],
   providers: [],
